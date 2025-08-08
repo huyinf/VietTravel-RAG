@@ -1,0 +1,90 @@
+2025-06-08 18:38:24,640 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 400 Bad Request"
+2025-06-08 18:38:24,642 - WARNING - API request failed (attempt 1): Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+2025-06-08 18:38:24,642 - INFO - Backing off _rate_limited_request(...) for 0.9s (openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}})
+2025-06-08 18:38:25,869 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 400 Bad Request"
+2025-06-08 18:38:25,870 - WARNING - API request failed (attempt 2): Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+2025-06-08 18:38:25,870 - INFO - Backing off _rate_limited_request(...) for 0.2s (openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}})
+2025-06-08 18:38:27,511 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 400 Bad Request"
+2025-06-08 18:38:27,514 - WARNING - API request failed (attempt 3): Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+2025-06-08 18:38:27,514 - INFO - Backing off _rate_limited_request(...) for 1.8s (openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}})
+2025-06-08 18:38:29,625 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 400 Bad Request"
+2025-06-08 18:38:29,626 - WARNING - API request failed (attempt 4): Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+2025-06-08 18:38:29,626 - INFO - Backing off _rate_limited_request(...) for 2.2s (openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}})
+2025-06-08 18:38:32,122 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 400 Bad Request"
+2025-06-08 18:38:32,123 - WARNING - API request failed (attempt 5): Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+2025-06-08 18:38:32,123 - ERROR - Giving up _rate_limited_request(...) after 5 tries (openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}})
+2025-06-08 18:38:32,123 - ERROR - Moderation check failed: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\search-engine\pataphrase.py", line 61, in check_moderation
+    response = self._rate_limited_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\backoff\_sync.py", line 105, in retry
+    ret = target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\search-engine\pataphrase.py", line 52, in _rate_limited_request
+    response = self.client.moderations.create(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\openai\resources\moderations.py", line 78, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\openai\_base_client.py", line 1037, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Invalid value for 'model' = moderation-latest. Please check the OpenAI documentation and try again.", 'type': 'invalid_request_error', 'param': 'model', 'code': None}}
+2025-06-08 18:39:17,438 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:17,439 - INFO - Retrying request to /moderations in 0.388863 seconds
+2025-06-08 18:39:18,268 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:18,268 - INFO - Retrying request to /moderations in 0.871294 seconds
+2025-06-08 18:39:19,460 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:19,461 - WARNING - API request failed (attempt 1): Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}
+2025-06-08 18:39:19,462 - INFO - Backing off _rate_limited_request(...) for 0.0s (openai.RateLimitError: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}})
+2025-06-08 18:39:19,830 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:19,830 - INFO - Retrying request to /moderations in 0.414418 seconds
+2025-06-08 18:39:20,585 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:20,585 - INFO - Retrying request to /moderations in 0.952071 seconds
+2025-06-08 18:39:21,898 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:21,899 - WARNING - API request failed (attempt 2): Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}
+2025-06-08 18:39:21,899 - INFO - Backing off _rate_limited_request(...) for 0.8s (openai.RateLimitError: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}})
+2025-06-08 18:39:23,591 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:23,592 - INFO - Retrying request to /moderations in 0.434797 seconds
+2025-06-08 18:39:24,345 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:24,347 - INFO - Retrying request to /moderations in 0.896353 seconds
+2025-06-08 18:39:25,582 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:25,584 - WARNING - API request failed (attempt 3): Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}
+2025-06-08 18:39:25,584 - INFO - Backing off _rate_limited_request(...) for 3.0s (openai.RateLimitError: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}})
+2025-06-08 18:39:28,887 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:28,887 - INFO - Retrying request to /moderations in 0.460219 seconds
+2025-06-08 18:39:29,683 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:29,684 - INFO - Retrying request to /moderations in 0.813761 seconds
+2025-06-08 18:39:31,075 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:31,077 - WARNING - API request failed (attempt 4): Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}
+2025-06-08 18:39:31,078 - INFO - Backing off _rate_limited_request(...) for 1.9s (openai.RateLimitError: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}})
+2025-06-08 18:39:33,368 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:33,370 - INFO - Retrying request to /moderations in 0.482134 seconds
+2025-06-08 18:39:34,189 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:34,190 - INFO - Retrying request to /moderations in 0.842075 seconds
+2025-06-08 18:39:35,387 - INFO - HTTP Request: POST https://api.openai.com/v1/moderations "HTTP/1.1 429 Too Many Requests"
+2025-06-08 18:39:35,389 - WARNING - API request failed (attempt 5): Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}
+2025-06-08 18:39:35,389 - ERROR - Giving up _rate_limited_request(...) after 5 tries (openai.RateLimitError: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}})
+2025-06-08 18:39:35,390 - ERROR - Moderation check failed: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\search-engine\pataphrase.py", line 61, in check_moderation
+    response = self._rate_limited_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\backoff\_sync.py", line 105, in retry
+    ret = target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\search-engine\pataphrase.py", line 52, in _rate_limited_request
+    response = self.client.moderations.create(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\openai\resources\moderations.py", line 78, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\openai\_base_client.py", line 1242, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Documents\NLP\text_mining\seminar\travel_rag\venv\Lib\site-packages\openai\_base_client.py", line 1037, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Your account is not active, please check your billing details on our website.', 'type': 'billing_not_active', 'param': None, 'code': 'billing_not_active'}}

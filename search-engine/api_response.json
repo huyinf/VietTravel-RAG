@@ -1,0 +1,26 @@
+{
+  "id": "gen-1749385990-m6x6XUO8FCtCY8MlwxGF",
+  "provider": "Google",
+  "model": "google/gemini-2.0-flash-exp:free",
+  "object": "chat.completion",
+  "created": 1749385992,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Tuy\u1ec7t v\u1eddi! D\u01b0\u1edbi \u0111\u00e2y l\u00e0 b\u1ea3n d\u1ecbch ti\u1ebfng Vi\u1ec7t, \u0111\u00e3 lo\u1ea1i b\u1ecf th\u00f4ng tin th\u1eeba v\u00e0 gi\u1eef l\u1ea1i nh\u1eefng \u0111i\u1ec3m ch\u00ednh:\n\n**Ti\u00eau \u0111\u1ec1: Kh\u00e1m ph\u00e1 10 \u0110\u1ecba \u0110i\u1ec3m Du L\u1ecbch N\u1ed5i Ti\u1ebfng \u1ede Nam \u0110\u1ecbnh**\n\n**T\u1ed5ng quan:**\nNam \u0110\u1ecbnh, v\u00f9ng \u0111\u1ea5t \"\u0111\u1ecba linh nh\u00e2n ki\u1ec7t\" g\u1ea7n H\u00e0 N\u1ed9i, l\u00e0 \u0111i\u1ec3m \u0111\u1ebfn du l\u1ecbch h\u1ea5p d\u1eabn v\u1edbi v\u1ebb \u0111\u1eb9p thi\u00ean nhi\u00ean v\u00e0 v\u0103n h\u00f3a \u0111\u1eb7c s\u1eafc.\n\n**C\u00e1c \u0110i\u1ec3m Tham Quan N\u1ed5i B\u1eadt:**\n\n*   **\u0110\u1ec1n Tr\u1ea7n Nam \u0110\u1ecbnh:** Khu di t\u00edch th\u1edd 14 v\u1ecb vua Tr\u1ea7n v\u00e0 c\u00e1c c\u00f4ng th\u1ea7n, n\u1ed5i ti\u1ebfng v\u1edbi hai l\u1ec5 h\u1ed9i l\u1edbn h\u00e0ng n\u0103m. G\u1ed3m 3 khu v\u1ef1c ch\u00ednh: \u0111\u1ec1n C\u1ed1 Tr\u1ea1ch (th\u1edd Tr\u1ea7n H\u01b0ng \u0110\u1ea1o), \u0111\u1ec1n Thi\u00ean Tr\u01b0\u1eddng (th\u1edd c\u00e1c vua Tr\u1ea7n), v\u00e0 \u0111\u1ec1n Tr\u00f9ng Hoa (th\u1edd t\u01b0\u1ee3ng c\u00e1c vua Tr\u1ea7n).\n\n*   **Nh\u00e0 Th\u1edd H\u01b0ng Ngh\u0129a:** Nh\u00e0 th\u1edd ki\u1ebfn tr\u00fac Gothic c\u1ed5 k\u00ednh, \u0111\u1ecba \u0111i\u1ec3m \"s\u1ed1ng \u1ea3o\" l\u00fd t\u01b0\u1edfng.\n\n*   **Bi\u1ec3n Th\u1ecbnh Long:** B\u00e3i bi\u1ec3n hoang s\u01a1 v\u1edbi b\u1edd c\u00e1t d\u00e0i, n\u01b0\u1edbc bi\u1ec3n trong xanh, th\u00edch h\u1ee3p cho du l\u1ecbch h\u00e8.\n\n*   **Ru\u1ed9ng Mu\u1ed1i B\u1ea1ch Long:** Ng\u1eafm nh\u00ecn c\u00e1nh \u0111\u1ed3ng mu\u1ed1i bao la v\u00e0o m\u00f9a l\u00e0m mu\u1ed1i (th\u00e1ng 3 - th\u00e1ng 8).\n\n*   **H\u1ed3 V\u1ecb Xuy\u00ean:** H\u1ed3 n\u01b0\u1edbc ng\u1ecdt y\u00ean b\u00ecnh, mang n\u00e9t c\u1ed5 k\u00ednh c\u1ee7a B\u1eafc B\u1ed9 k\u1ebft h\u1ee3p v\u1edbi ki\u1ebfn tr\u00fac ph\u01b0\u01a1ng T\u00e2y.\n\n*   **Th\u00e1p Ph\u1ed5 Minh:** Ng\u00f4i th\u00e1p c\u1ed5 700 n\u0103m tu\u1ed5i, ki\u1ebfn tr\u00fac \u0111\u1ed9c \u0111\u00e1o th\u1eddi Tr\u1ea7n.\n\n*   **C\u1eeda Ba L\u1ea1t:** N\u01a1i s\u00f4ng H\u1ed3ng \u0111\u1ed5 ra bi\u1ec3n \u0110\u00f4ng, phong c\u1ea3nh th\u01a1 m\u1ed9ng v\u00e0 cu\u1ed9c s\u1ed1ng b\u00ecnh d\u1ecb c\u1ee7a ng\u01b0\u1eddi d\u00e2n.\n\n*   **Khu Ph\u1ed1 C\u1ed5 Nam \u0110\u1ecbnh:** Ph\u1ed1 c\u1ed5 h\u01a1n 800 n\u0103m tu\u1ed5i, ki\u1ebfn tr\u00fac giao thoa Vi\u1ec7t Nam, ph\u01b0\u01a1ng T\u00e2y v\u00e0 Trung Hoa.\n\n*   **B\u1ea3o T\u00e0ng D\u1ec7t:** N\u01a1i l\u01b0u gi\u1eef gi\u00e1 tr\u1ecb truy\u1ec1n th\u1ed1ng c\u1ee7a ng\u00e0nh d\u1ec7t may Nam \u0110\u1ecbnh.\n\n**L\u01b0u Tr\u00fa (Kh\u00e1ch S\u1ea1n G\u1ee3i \u00dd):**\n\n*   SOJO Hotel Nam Dinh\n*   Kh\u00e1ch s\u1ea1n Nam C\u01b0\u1eddng Nam \u0110\u1ecbnh\n*   D\u1ec7t Hotel\n*   Lakeside 2 Hotel\n\n**K\u1ebft lu\u1eadn:**\nNam \u0110\u1ecbnh thu h\u00fat du kh\u00e1ch b\u1edfi c\u1ea3nh quan \u0111\u1eb9p, c\u00f4ng tr\u00ecnh c\u1ed5 k\u00ednh v\u00e0 gi\u00e1 tr\u1ecb l\u1ecbch s\u1eed s\u00e2u s\u1eafc.\n",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4049,
+    "completion_tokens": 517,
+    "total_tokens": 4566
+  }
+}

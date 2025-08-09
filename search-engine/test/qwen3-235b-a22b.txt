@@ -1,0 +1,270 @@
+<think>Okay, let's see. The user wants me to remove useless text, unrelated content, icons, and preserve only readable and renderable characters, then translate the content to Vietnamese.
+
+Wait, but the content provided is already in Vietnamese. Hmm. Wait, the original content is in Vietnamese, and the user says "translate this content to vietnamese". Maybe it's a mistake? Or perhaps the original content has some non-Vietnamese parts?
+
+Wait, looking at the content, the title and URL are in Vietnamese. The content itself with tags like [H1], [P] seem to be the structure of the page. The user wants to remove all the useless parts like icons, irrelevant text, and keep only the readable parts, then translate to Vietnamese. But since the content is already in Vietnamese, maybe the user meant to clean it up first and then present it in Vietnamese, which it already is.
+
+Wait, maybe the original content has some English parts or tags that need to be removed. Let me check the content again.
+
+Looking at the content:
+
+- The title is in Vietnamese: "Khám phá 10 địa điểm du lịch Nam Định nổi tiếng"
+- URL is in Vietnamese slug: .../dia-diem-du-lich-nam-dinh-acc/155745
+- Content with tags: [H1], [P], etc. These are HTML tags but represented as text.
+
+The user says: remove useless text, unrelated to the content, remove icons, just preserve readable and renderable characters and translate this content to vietnamese.
+
+Wait, but the content provided is already in Vietnamese, but it's structured with tags like [H1] and [P]. The user probably wants to strip those tags and any other non-readable text (like @Shutterstock, some lists at the bottom), and then present a clean Vietnamese version.
+
+Wait, the task is to remove useless text (unrelated, icons), preserve readable characters, then translate to Vietnamese. But since it's already in Vietnamese, maybe the translation part is redundant, but perhaps there's some English text to translate.
+
+Looking closely, there are some parts like:
+
+- "@Shutterstock" after image captions
+- Some English terms like "SOJO Hotel Nam Dinhlà khách sạn..." but "là" is Vietnamese, so maybe "SOJO Hotel Nam Dinh" is part of the name, but there's "8.6/10" and prices in VND.
+
+Also, the last part has sections like [H3] Về Traveloka, with list items in Vietnamese.
+
+Wait, the user instruction says "remove useless text, unrelated to the content, remove icons, just preserve readable and renderable characters and translate this content to vietnamese".
+
+But the content is in Vietnamese. Maybe the user made a mistake and wants the content cleaned up (removing tags, unrelated sections) and presented in Vietnamese, which is already the case. But perhaps some parts are in English that need translation.
+
+Wait, looking at the content, there's a section:
+
+[H1] SOJO Hotel Nam Dinh
+[P] Địa chỉ: Số 272 đường Trần Hưng Đạo, phường Bà Triệu, thành phố Nam Định, thành phố Nam Định
+[P] SOJO Hotel Nam Dinhlà khách sạn đạt tiêu chất lượng 4 sao được nhiều du khách yêu thích lựa chọn...
+
+Wait, "SOJO Hotel Nam Dinh" is part of the hotel name, but "là" is Vietnamese. There's a typo: "SOJO Hotel Nam Dinhlà" should be "SOJO Hotel Nam Định là".
+
+Also, there are lines like:
+
+SOJO Hotel Nam Dinh
+•
+8.6/10
+Số 272 đường Trần Hưng Đạo, phường Bà Triệu, thành phố Nam Định, thành phố Nam Định
+1.101.600 VND
+1.078.629 VND
+
+These are structured data, maybe from a table or list. The user wants to remove icons (like the bullet •) and numbers that are not part of the main content.
+
+The user also says "translate this content to vietnamese", but since it's already in Vietnamese, maybe it's a mistake. However, perhaps there are some English phrases that need translation, but looking at the text, it's mostly Vietnamese except for some hotel names and ratings.
+
+Wait, the task might be to take the provided content (which includes HTML-like tags, some English annotations, and other metadata) and clean it up to just the main article text in Vietnamese, removing all the extraneous stuff like @Shutterstock, •, URLs, etc.
+
+Let me parse the content step by step.
+
+Original content structure:
+
+- Title: [H1] Khám phá 10 địa điểm du lịch Nam Định nổi tiếng
+- URL
+- Content with tags: various [H1], [P], images references like "@Shutterstock", hotel listings with addresses, ratings, prices, etc.
+- Footer sections with [H3], [LI], etc.
+
+User wants to remove useless text (unrelated, icons), preserve readable characters, then translate to Vietnamese.
+
+But since the main content is in Vietnamese, the translation part might be redundant, but the key is to clean up the text.
+
+Steps to follow:
+
+1. Remove all the HTML tags like [H1], [P], [H3], [LI], etc.
+2. Remove image credits like "@Shutterstock", "@Báo Tài Nguyên & Môi Trường", etc.
+3. Remove bullet points (•) and any other icons/symbols not part of readable text.
+4. Remove footer sections (like "Về Traveloka", "Theo dõi chúng tôi trên", etc.) since they are unrelated to the main content.
+5. Remove repetitive or non-content parts (e.g., price listings, hotel ratings if they are in a structured format not part of the prose).
+6. Correct any obvious typos (like "bạndu lịch" should be "bạn du lịch", "SOJO Hotel Nam Dinhlà" to "SOJO Hotel Nam Định là").
+7. Ensure that only the main article content remains, translated to Vietnamese (but since it's already in Vietnamese, just clean it).
+
+Wait, the user says "translate this content to vietnamese", but the content is already in Vietnamese. Maybe the user made a mistake, but the main task is to clean up the provided text.
+
+Wait, looking again at the problem statement: "remove useless text, unrelated to the content, remove icons, just preserve readable and renderable characters and translate this content to vietnamese".
+
+Ah, perhaps the original content (the part after "Content with tag:") is in Vietnamese, but the user wants it cleaned and then translated to Vietnamese, which doesn't make sense unless there's non-Vietnamese text. Alternatively, maybe the "Content with tag:" is in another language, but no, looking at it, it's Vietnamese.
+
+Wait, maybe the user copied content that has HTML tags and other meta information, and wants the actual article text extracted and presented in clean Vietnamese.
+
+So the task is to take the provided text, strip all the tags, icons, unrelated sections, and present the cleaned Vietnamese text.
+
+For example, the [H1] and [P] tags should be removed, keeping the text. Image credits like "@Shutterstock" should be removed. The footer sections (About Traveloka, social media links, etc.) should be removed. Hotel listings might be part of the content, but the user says "unrelated to the content", so maybe only the main 10 locations are to be kept, and the hotel list is secondary. Wait, the title says "Khám phá 10 địa điểm du lịch Nam Định nổi tiếng", but the content lists 10 places (Đền Trần, Nhà thờ Hưng Nghĩa, Biển Thịnh Long, Ruộng muối Bạch Long, Hồ Vị Xuyên, Tháp Phổ Minh, Cửa Ba Lạt, Khu phố cổ, Bảo Tàng Dệt, and then the hotel list starts with "Danh sách các khách sạn...").
+
+Wait, the user mentioned "10 địa điểm", but in the content:
+
+1. Đền Trần Nam Định
+2. Nhà thờ Hưng Nghĩa
+3. Biển Thịnh Long
+4. Ruộng muối Bạch Long
+5. Hồ Vị Xuyên
+6. Tháp Phổ Minh
+7. Cửa Ba Lạt
+8. Khu phố cổ Nam Định
+9. Bảo Tàng Dệt
+10. Danh sách các khách sạn...
+
+So the 10th point is the hotel list, which is not a tourist spot but accommodation. Maybe the user wants only the first 9 tourist spots, but the title says 10. Wait, the initial paragraph says "với 9 địa điểm tham quan nổi tiếng khắp nước." Wait, the first paragraph says: "Traveloka sẽ cùng bạndu lịch Nam Địnhvới 9 địa điểm tham quan nổi tiếng khắp nước." So there's a typo, should be "bạn du lịch Nam Định với 9 địa điểm...". But then the H1 says "Khám phá 10 địa điểm...". There's inconsistency. The content lists 9 tourist spots before the hotel list. Let me count:
+
+After the first header, the sections are:
+
+- Đền Trần Nam Định
+- Nhà thờ Hưng Nghĩa
+- Biển Thịnh Long
+- Ruộng muối Bạch Long
+- Hồ Vị Xuyên
+- Tháp Phổ Minh
+- Cửa Ba Lạt
+- Khu phố cổ Nam Định
+- Bảo Tàng Dệt
+
+That's 9 sections. Then next H1 is "Danh sách các khách sạn...", which is the 10th, but it's not a tourist spot. So the title says 10, but the intro says 9. Maybe the user wants to keep all the main content sections, which are the 9 tourist spots plus the hotel list as part of the article, but the task is to clean it up.
+
+The user instructions say to remove useless text unrelated to the content. So the main content is the description of the tourist spots and maybe the hotels. The footer sections (like About Traveloka, payment partners, etc.) are unrelated and should be removed.
+
+So the plan is:
+
+- Keep the title
+- Keep the introductory paragraphs
+- For each tourist spot (Đền Trần, etc.), keep the headers and paragraphs
+- Remove image credits like "@Shutterstock"
+- For the hotel listings, determine if they're part of the main content. Since the H1 says "Danh sách các khách sạn...", it's part of the article, so keep the hotel names, addresses, descriptions, but remove structured data like ratings, prices, bullets.
+- Remove all footer sections after "Tổng kết"
+
+Also, correct typos like "bạndu lịch" to "bạn du lịch", "SOJO Hotel Nam Dinhlà" to "SOJO Hotel Nam Định là".
+
+Let me go through the content step by step.
+
+Starting with:
+
+Title: Khám phá 10 địa điểm du lịch Nam Định nổi tiếng
+URL: ... (remove URL)
+
+Content with tag:
+[H1] Khám phá 10 địa điểm du lịch Nam Định nổi tiếng
+[P] Được mệnh danh vùng đất “địa linh nhân kiệt”, Nam Định là tỉnh thành mang ý nghĩa lịch sử lớn lao ở Việt Nam. Khá gần với thủ đô Hà Nội nên nơi đây trở thành một tâm điểm du lịch nổi tiếng ở trong nước. Trải qua nhiều năm lịch sử, Nam Định vẫn giữ nguyên được những vẻ đẹp thiên nhiên, nét đặc sắc trong văn hóa. Trong bài viết này, Traveloka sẽ cùng bạndu lịch Nam Địnhvới 9 địa điểm tham quan nổi tiếng khắp nước.
+
+First, remove [H1] and [P] tags. Correct "bạndu lịch Nam Địnhvới" to "bạn du lịch Nam Định với".
+
+Next section:
+[H1] Những điểm tham quan không thể bỏ lỡ khi du lịch Nam Định
+[P] Nam Định thu hút du khách tứ phương bởi khung cảnh thiên xinh đẹp cùng những công trình kiến trúc cổ kính. Nào hãy cùng Traveloka tham khảo một số địa điểm tham quan nổi tiếng của tỉnh thành này nhé!
+
+Remove tags, correct "thiên xinh" to "thiên nhiên xinh" but original says "thiên xinh" which is a typo for "thiên nhiên xinh đẹp". Wait, the text says "khung cảnh thiên xinh đẹp" which should be "khung cảnh thiên nhiên xinh đẹp". But since we're to preserve the content, maybe just keep as is unless it's an obvious typo that's part of the tags. Wait, the user said to remove useless text but not to correct content, except maybe the tags.
+
+Wait, the user said "remove useless text, unrelated to the content, remove icons, just preserve readable and renderable characters". So typos in the content might remain unless they are part of the "useless text".
+
+Next, sections for each location. For example:
+
+[H1] Đền Trần Nam Định
+[P] Khu di tích Đền Trần được xây dựng từ năm 1695. Đền Trần Nam Định là nơi thờ phụng 14 vị vua, gia quyến của họ và các vị quan có công phù tá của thời nhà Trần. Tại Đền Trần Nam Định mỗi năm tổ chức 2 lễ hội lớn là Hội Đền Trần thường diễn từ 15-20 tháng 8 âm lịch hàng năm và Lễ khai xuân đầu xuân diễn ra từ ngày 14-15 tháng 1 âm lịch.
+[P] Khu di tích đền Trần bao gồm 3 khu vực chính là đền Cố Trạch, đền Thiên Trường và đền Trùng Hoa. Đền Thiên Trường ở ngay trung tâm của đền, đây là nơi đặt bàn thờ của các vị và các vị công thần có công với đất nước. Đền Cố Trạch đặt bài vị của tương Trần Hưng Đạo, gia đình và gia tướng của ông. Đền Trùng Hoa được xây dựng ở phía Tây của đền. Trong đền thờ 14 pho tượng của 14 vị vua thời nhà Trần.
+[P] Đền Trần Nam Định là điểm tham quan thu hút nhiều du khách.@Shutterstock
+
+Need to remove "@Shutterstock" at the end of the paragraph.
+
+Similarly for other sections, e.g., "@Shutterstock" after image captions.
+
+Hotel sections:
+
+[H1] SOJO Hotel Nam Dinh
+[P] Địa chỉ: Số 272 đường Trần Hưng Đạo, phường Bà Triệu, thành phố Nam Định, thành phố Nam Định
+[P] SOJO Hotel Nam Dinhlà khách sạn đạt tiêu chất lượng 4 sao được nhiều du khách yêu thích lựa chọn...
+
+Remove the bullet points, ratings, prices. Keep the descriptive paragraphs.
+
+Then there's structured data:
+
+SOJO Hotel Nam Dinh
+•
+8.6/10
+Số 272 đường Trần Hưng Đạo, phường Bà Triệu, thành phố Nam Định, thành phố Nam Định
+1.101.600 VND
+1.078.629 VND
+
+This seems like a list of details, but the user wants to preserve readable content, so maybe keep address and description, remove ratings and prices.
+
+However, the user said "remove useless text, unrelated to the content". If the hotel list is part of the article (as the H1 says "Danh sách các khách sạn..."), then the addresses and descriptions are relevant, but the structured data (ratings, prices) might be considered as presented in a non-readable format (with • and line breaks), so they should be cleaned.
+
+Similarly, for each hotel:
+
+- Remove the bullet (•)
+- Remove the rating line (8.6/10)
+- Remove price lines
+- Keep the address and description
+
+The conclusion section should be kept.
+
+Remove all footer sections after "Tổng kết", which includes:
+
+[H3] Trong bài viết này
+[H3] Khách sạn nổi bật trong bài viết này
+... etc., down to "Tải ứng dụng Traveloka"
+
+Now, translating to Vietnamese: but the content is already in Vietnamese. Wait, the user's instruction says "translate this content to vietnamese", which is confusing. Maybe it's a mistake, and they just want the cleaned text in Vietnamese. Since the original is in Vietnamese, the translation step is unnecessary, but the main task is cleaning.
+
+So final output should be clean Vietnamese text with all the main content, no HTML tags, no image credits, no footer sections, no structured data like ratings/prices, just the prose.
+</think>
+
+Khám phá 10 địa điểm du lịch Nam Định nổi tiếng  
+
+Được mệnh danh vùng đất “địa linh nhân kiệt”, Nam Định là tỉnh thành mang ý nghĩa lịch sử lớn lao ở Việt Nam. Khá gần với thủ đô Hà Nội nên nơi đây trở thành một tâm điểm du lịch nổi tiếng ở trong nước. Trải qua nhiều năm lịch sử, Nam Định vẫn giữ nguyên được những vẻ đẹp thiên nhiên, nét đặc sắc trong văn hóa. Trong bài viết này, Traveloka sẽ cùng bạn du lịch Nam Định với 9 địa điểm tham quan nổi tiếng khắp nước.  
+
+Những điểm tham quan không thể bỏ lỡ khi du lịch Nam Định  
+Nam Định thu hút du khách tứ phương bởi khung cảnh thiên nhiên xinh đẹp cùng những công trình kiến trúc cổ kính. Nào hãy cùng Traveloka tham khảo một số địa điểm tham quan nổi tiếng của tỉnh thành này nhé!  
+
+Đền Trần Nam Định  
+Khu di tích Đền Trần được xây dựng từ năm 1695. Đền Trần Nam Định là nơi thờ phụng 14 vị vua, gia quyến của họ và các vị quan có công phù tá của thời nhà Trần. Tại Đền Trần Nam Định mỗi năm tổ chức 2 lễ hội lớn là Hội Đền Trần thường diễn từ 15–20 tháng 8 âm lịch hàng năm và Lễ khai xuân đầu xuân diễn ra từ ngày 14–15 tháng 1 âm lịch.  
+Khu di tích đền Trần bao gồm 3 khu vực chính là đền Cố Trạch, đền Thiên Trường và đền Trùng Hoa. Đền Thiên Trường ở ngay trung tâm của đền, đây là nơi đặt bàn thờ của các vị vua và các vị công thần có công với đất nước. Đền Cố Trạch đặt bài vị của tướng Trần Hưng Đạo, gia đình và gia tướng của ông. Đền Trùng Hoa được xây dựng ở phía Tây của đền. Trong đền thờ 14 pho tượng của 14 vị vua thời nhà Trần.  
+
+Nhà thờ Hưng Nghĩa  
+Nhà thờ Hưng Nghĩa ở xã Hải Hưng, huyện Hải Hậu, tỉnh Nam Định, được xây dựng từ năm 1927. Đây là một trong những nhà thờ đẹp nhất ở Việt Nam mang nét kiến trúc Gothic của Tây Ban Nha và Pháp cổ kính. Đây là địa điểm check-in không thể bỏ qua của du khách khi du lịch Nam Định. Đứng từ xa, nhà thờ Hưng Nghĩa sở hữu một vẻ đẹp huyền bí như một tòa lâu đài lâu đời ở phương Tây với gam màu xám hút mắt cùng những chi tiết kiến trúc tinh xảo. Nếu bạn là người yêu thích “sống ảo” thì đây chính là một địa điểm lý tưởng để bạn có những bức ảnh nghệ thuật độc đáo.  
+
+Biển Thịnh Long  
+Bãi biển Thịnh Long nằm ở thị trấn Thịnh Long, huyện Hải Hậu, tỉnh Nam Định. Đây là một trong những bãi biển hoang sơ và đẹp nhất ở Nam Định. Với đường bờ biển dài 3km, nơi đây là nơi vui chơi giải trí của nhiều du khách tứ phương vào mùa hè hàng năm. Biển Thịnh Long có nước biển trong và mát, bãi cát mịn và rất mát mẻ vì không chịu ảnh hưởng của gió Lào.  
+
+Ruộng muối Bạch Long  
+Tháng 3 đến tháng 8 hàng năm nếu bạn du lịch Nam Định, thì đừng quên ghé tham quan ruộng muối Bạch Long để chiêm ngưỡng vẻ đẹp của địa điểm này vào mùa làm muối nhé! Làm muối là một nghề truyền thống vất vả ở Nam Định. Để có những hạt muối trắng ngần, những người dân phải thức dậy từ lúc sáng sớm. Muối chỉ có ngon và trắng khi được phơi dưới nắng gắt.  
+Đối với nhiều nghề, nắng to chính là sự nghiệt ngã của thiên nhiên, nhưng đối với nghề làm muối, nắng to lại là món quà trân quý của đất trời, vì nắng càng to, muối càng dễ kết tinh, mùa muối càng bội thu. Đến với ruộng muối Bạch Long, bạn sẽ được ngắm nhìn những cánh đồng muối bao la, những ụ muối thành phẩm trắng tinh, cũng như những chiếc thuyền chở muối về kho trong chiều hoàng hôn còn chút nắng.  
+
+Hồ Vị Xuyên  
+Hồ Vị Xuyên là tên gọi chỉ một hồ nước ngọt nằm ngay phường Vị Xuyên, thành phố Nam Định, tỉnh Nam Định. Hồ Vị Xuyên sở hữu một vẻ đẹp thơ mộng và bình yên hơi giống với hồ Hoàn Kiếm dù có kích thước nhỏ hơn. Ven hồ có rất nhiều cây xanh tỏa bóng, xa xa hồ là những đỉnh tháp nhà thờ mang kiến trúc phương Tây cổ điển, tổng thể tạo nên một khung cảnh vừa mang nét trầm lắng của một tỉnh thành Bắc Bộ, vừa mang một chút hơi hướng của khung cảnh phương Tây.  
+
+Tháp Phổ Minh  
+Tháp Phổ Minh là tòa tháp được xây dựng vào năm 1305, tọa lạc tại xã Lộc Vượng, tỉnh Nam Định, cách trung tâm thành phố khoảng 5km. Đây là một trong những ngôi tháp cổ nhất Việt Nam với kiến trúc bao gồm 14 tầng, cao đến 20m.  
+Hai tầng dưới của tháp được xây từ đá vững chắc và được chạm khắc các hoạt tiết độc đáo của thời nhà Trần. Các tầng trên của tháp được dựng lên bằng gạch được khắc họa hình rồng và dòng chữ “Hưng - Long Nam Niên”. Phần đỉnh trên cùng của tháp được tượng một búp sen với những cánh hoa chụm lại với nhau, mang ý nghĩa ca ngợi ý chí hiên ngang của người Việt.  
+Nếu có dịp đến Nam Định, thì hãy ghé thăm tòa tháp 700 năm tuổi này nhé bạn, bạn sẽ được chiêm ngưỡng một công trình kiến trúc đầy tự hào của dân tộc, được nghe những câu chuyện liên quan đến sự hình thành của tòa tháp.  
+
+Cửa Ba Lạt  
+Cửa sông Ba Lạt là nơi dòng sông Hồng đi qua trong hành trình tiến ra biển Đông. Cửa sông này thuộc địa phận của xã Giao Thiện, huyện Giao Thủy, tỉnh Nam Định. Cửa Ba Lạt là nơi ẩn chứa nhiều câu chuyện tương truyền kì bí, cũng là sở hữu một vẻ đẹp thơ mộng của đất nước.  
+Đường đến cửa Ba Lạt, bạn sẽ có dịp đi ngang qua cánh đồng vô tận, những dòng sông mang màu nước đặc biệt cùng những công trình tôn giáo mang nét kiến trúc cổ xưa và khu vườn quốc gia Xuân Thủy đầy yên bình. Đến đây, bạn sẽ được chiêm ngưỡng cuộc sống của những người dân sống gần cửa Ba Lạt với công việc bắt ngao trong dòng nước và bùn đất vô cùng bình dị và đẹp đến lạ kì.  
+
+Khu phố cổ Nam Định  
+Phố cổ Nam Định hay còn gọi là phố cổ Thành Nam. Khi xưa, con phố nằm cạnh bên bờ sông Vị Hoàng (ngày nay có tên là sông Nam Định hoặc sông Đào). Khu phố cổ này tính đến nay đã tồn tại hơn 800 năm với 40 khu phố nhỏ mang những cái tên dân dã như Hàng Mâm, Hàng Ghế,...  
+Đến với phố cổ Nam Định, bạn sẽ được chiêm ngưỡng những ngôi nhà cổ kính có nét kiến trúc giao thoa giữa kiến trúc Việt Nam, kiến trúc Phương Tây và kiến trúc Trung Hoa. Phố cổ Nam Định ngày nay vẫn lưu giữ được nét bình lặng vốn có trong quá khứ dù đã trải qua bao thăng trầm trong lịch sử. Cũng giống như phố cổ Hà Nội, phố cổ Nam Định giúp bạn ngắm nhìn và mường tượng ra cuộc sống văn hóa xã hội của người dân Nam Định hàng trăm năm trước.  
+
+Bảo Tàng Dệt  
+Bảo tàng Dệt Nam Định nằm trên đường Hoàng Hoa Thám, thành phố Nam Định. Nơi đây được xây dựng theo nét kiến trúc nhà cổ truyền thống, thuộc công ty cổ phần nhà máy Dệt Nam Định. Nơi đây là nơi lưu giữ lại những hiện vật, những giá trị truyền thống của ngành dệt may thời xa xưa.  
+Từ năm 1889, nhà máy Dệt Nam Định là một trong những nhà máy lớn hàng đầu Việt Nam với 6000 nhân công, đây chính là cái nôi giúp chi bộ công nhân thời đó lớn mạnh. Bảo tàng Dệt có diện tích gần 1.2ha, sở hữu lối kiến trúc cổ điển Pháp, bên trong ngày nay được chia thành nhiều không gian trưng bày với những chủ đề khác nhau. Đến đây bạn sẽ được chiêm ngưỡng những sản phẩm vải vóc, may mặc của Việt Nam thời xưa, những chiếc máy may, máy dệt làm góp phần làm nên sự huy hoàng của ngành dệt may của đất nước vào những thế kỉ trước.  
+
+Danh sách các khách sạn chất lượng ở Nam Định  
+Để có một chuyến du lịch Nam Định thoải mái, một nơi lưu trú chất lượng là điều không thể thiếu. Dưới đây là một số khách sạn Nam Định được nhiều du khách đánh giá cao:  
+
+SOJO Hotel Nam Định  
+Địa chỉ: Số 272 đường Trần Hưng Đạo, phường Bà Triệu, thành phố Nam Định.  
+SOJO Hotel Nam Định là khách sạn đạt tiêu chuẩn chất lượng 4 sao được nhiều du khách yêu thích lựa chọn. Đây là khách sạn ứng dụng công nghệ không chạm tiên tiến ở Việt Nam. Du khách có thể đặt phòng, nhận và trả phòng, gửi đồ, gửi chìa khóa, mở rèm cửa sổ, điều chỉnh hệ thống chiếu sáng của phòng và đặt thức ăn... bằng điện thoại di động.  
+
+Khách sạn Nam Cường Nam Định  
+Địa chỉ: Số 538 đường Trần Hưng Đạo, phường Lộc Vượng, thành phố Nam Định.  
+Khách sạn Nam Cường Nam Định có vị trí gần với nhiều điểm tham quan nổi tiếng của Nam Định như Đền Cây Quế, Cuba House Ants, Câu Tân Đệ. Đây là một khách sạn cao cấp với hệ thống phòng nghỉ được bố trí sang trọng và hầu hết đều có diện tích từ 40m² trở lên.  
+Khách sạn có hồ bơi ngoài trời thoáng mát, rộng rãi, rất phù hợp để làm địa điểm “sống ảo” của những du khách đam mê chụp ảnh. Bên trong khách sạn có nhà hàng riêng chuyên phục vụ những món ăn đa dạng.  
+
+Dệt Hotel  
+Địa chỉ: Số 64 đường Nguyễn Hiền, phường Trần Đăng Ninh, thành phố Nam Định.  
+Dệt Hotel là khách sạn được nhiều du khách khen ngợi về chất lượng phòng nghỉ. Khách sạn tọa lạc tại vị trí trung tâm của thành phố Nam Định, nên rất thuận tiện để di chuyển đến các điểm tham quan nổi tiếng như Đền Cây Quế, cầu Tân Đệ,...  
+Khách sạn có hệ thống phòng nghỉ, nhiều phòng có diện tích lên đến 40m². Dệt Hotel hiện có nhiều loại phòng khác nhau bao gồm phòng 1 giường đôi, phòng 2 giường và phòng 3 giường.  
+
+Lakeside 2 Hotel  
+Địa chỉ: Số 168 Đông A, xã Lộc Hòa, thành phố Nam Định.  
+Lakeside 2 Hotel là khách sạn đạt chất lượng 2.5 sao, rất có tiếng ở Nam Định vì nét kiến trúc sang trọng. Không gian phòng nghỉ được trang trí kĩ lưỡng với tông màu vàng nhạt chủ yếu, một số phòng nghỉ khách sạn Lakeside được trang bị nhiều cửa sổ giúp không gian thêm phần thoáng mát. Bên cạnh đó, khách sạn cung cấp đầy đủ các dịch vụ kèm giúp đáp ứng mọi nhu cầu du lịch của khách hàng như đưa đón sân bay, phục vụ bữa sáng,... vô cùng tiện lợi.  
+
+Một số lưu ý khi du lịch Nam Định  
+
+Tổng kết  
+Nam Định vẫn thu hút rất nhiều du khách đến từ bốn phương vì những cảnh sắc thiên nhiên hùng vĩ, những công trình kiến trúc cổ kính lâu đời... Du lịch Nam Định không đơn giản là một chuyến nghỉ dưỡng mà còn là một hành trình tìm hiểu về lịch sử của dân tộc. Với những thông tin trong bài viết, Traveloka hi vọng đã giúp bạn biết về Nam Định nhiều hơn.

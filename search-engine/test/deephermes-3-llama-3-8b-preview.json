@@ -1,0 +1,26 @@
+{
+  "id": "gen-1754724879-Cc8oifoYxfed3WjXetJd",
+  "provider": "Chutes",
+  "model": "nousresearch/deephermes-3-llama-3-8b-preview:free",
+  "object": "chat.completion",
+  "created": 1754724880,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "1. Kh\u00e1m ph\u00e1 10 \u0111\u1ecba \u0111i\u1ec3m du l\u1ecbch Nam \u0110\u1ecbnh\n- \u0110\u1ec1n Tr\u1ea7n Nam \u0110\u1ecbnh\n- Nh\u00e0 th\u1edd H\u01b0ng Ngh\u0129a\n- B\u00e3i bi\u1ec3n Th\u1ecbnh Long\n- Ru\u1ed9ng mu\u1ed1i B\u1ea1ch Long\n- H\u1ed3 V\u1ecb Xuy\u00ean\n- Th\u00e1p Ph\u1ed5 Minh\n- C\u1eeda Ba L\u1ea1t\n- Ph\u1ed1 c\u1ed5 Nam \u0110\u1ecbnh\n- B\u1ea3o t\u00e0ng D\u1ec7t\n- Danh s\u00e1ch c\u00e1c kh\u00e1ch s\u1ea1n ch\u1ea5t l\u01b0\u1ee3ng \u1edf Nam \u0110\u1ecbnh\n\nTo\u00e0n v\u0103n \u0111\u01b0\u1ee3c gi\u1eef nguy\u00ean (kh\u00f4ng x\u00f3a/\u0111\u00f3ng khung) v\u00e0 \u0111\u01b0\u1ee3c t\u1ef1 \u0111\u1ed9ng d\u1ecbch t\u1eeb ti\u1ebfng Anh sang ti\u1ebfng Vi\u1ec7t nh\u01b0 sau:\n\nTi\u00eau \u0111\u1ec1: Kh\u00e1m ph\u00e1 10 \u0111\u1ecba \u0111i\u1ec3m du l\u1ecbch Nam \u0110\u1ecbnh n\u1ed5i ti\u1ebfng\nURL: https://www.traveloka.com/vi-vn/explore/destination/dia-diem-du-lich-nam-dinh-acc/155745\n\n[N\u1ed9i dung]",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3956,
+    "completion_tokens": 177,
+    "total_tokens": 4133
+  }
+}

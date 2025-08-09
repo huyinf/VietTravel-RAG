@@ -1,0 +1,26 @@
+{
+  "id": "gen-1754724903-s1DII4AJaDHPqWTO6j0Y",
+  "provider": "Chutes",
+  "model": "mistralai/mistral-nemo:free",
+  "object": "chat.completion",
+  "created": 1754724903,
+  "choices": [
+    {
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "**Translate\u0444\u0456 Vince-content:**\n\n**Title:** Explore 10 famous tourist destinations in Nam \u0110\u1ecbnh\n**URL:** [https://www.traveloka.com/vi-vn/explore/destination/dia-diem-du-lich-nam-dinh-acc/155745](https://www.traveloka.com/vi-vn/explore/destination/dia-diem-du-lich-nam-dinh-acc/155745)\n\n**Content:**\n\n**1. [[H1]] \u0110\u1ecba linht')) h\u00e0ng \u0111\u01b0\u1ee3c kh\u00e1m a\u00e7\u0131k[P]] Nam \u0110\u1ecbnh, known as the \"land of heroes\", is a province rich in history and culture near Hanoi. Despite its long history, Nam \u0110\u1ecbnh has preserved its natural beauty and cultural charm, making it a popular tourist destination in Vietnam. This article will explore 10 famous tourist attractions in Nam \u0110\u1ecbnh. [[H1]] [ Places you cannot miss when visiting Nam \u0110\u1ecbnh ] [P]] Nam \u0110\u1ecbnh attracts tourists with its beautiful landscapes and ancient architecture. Here are some popular tourist attractions: [[H1]] \u0110\u1ec1n Tr\u1ea7n outlines]] arches]] [P]] The Tr\u1ea7n Temple Complex was constructed in 1695 and is dedicated to 14 kings, their families, and officials who served under the Tr\u1ea7n Dynasty. The complex consists of three main areas: \u0110\u1ec1n C\u1ed1 Tr\u1ea1ch, \u0110\u1ec1n Thi\u00ean Tr\u01b0\u1eddng, and \u0110\u1ec1n Tr\u00f9ng Hoa. Each area has thousands of delicate carvings and beautiful architecture. [[H1]] Nh\u00e0 th\u1edd H\u01b0ng Ngh\u0129a [P]]License Hang Nga]] Hung Nghia Church is located in H\u1ea3i H\u01b0ng commune, H\u1ea3i H\u1eadu district, Nam \u0110\u1ecbnh province. It was built in 1927 and is one of the most beautiful churches in Vietnam, with a unique blend of Spanish and French Gothic architecture. [[H1]] Bi\u1ec3n Th\u1ecbnh Long [P]] Thrinh Long Beach is located in thanh Long town, H\u1ea3i H\u1eadu district, Nam \u0110\u1ecbnh province. It is one of the most pristine and beautiful beaches in Nam \u0110\u1ecbnh, with a 3-km long coastline, clear blue water, and fine sand. [[H1]] V\u01b0\u1eddn mu\u1ed1i B\u1ea1ch Long [P]] Bat Long Salt Fields are located in Bat Long commune, V\u0129nh Trson district, Nam \u0110\u1ecbnh province. Every year from March to August, the salt fields create a beautiful and unique landscape. [[H1]] H\u1ed3 V\u1ecb Xuy\u00ean [P]] Vi Xuy\u00ean Lake is located in V\u1ecb Xuy\u00ean ward, Nam \u0110\u1ecbnh city, Nam \u0110\u1ecbnh province. It is a peaceful and picturesque lake surrounded by lush greenery and old churches, reflecting the fusion of Vietnamese and Western architecture. [[H1]] Th\u00e1p Ph\u1ed5 Minh [P]] Pho Minh Tower is located in L\u1ed9c V\u01b0\u1ee3ng commune, Nam \u0110\u1ecbnh province, about 5 km from the city center. It is one of the oldest pagodas in Vietnam, built in 1305, with 14 levels and a height of 20 meters. [[H1]] C\u1eeda Ba L\u1ea1t [P]] Ba Lat Gate is located in Giao Thi\u1ec7n commune, Giao Th\u1ee7y district, Nam \u0110\u1ecbnh province. It is where the Red River meets the sea, creating a vast and beautiful landscape. [[H1]] Ph\u1ed1 C\u1ed5 Nam \u0110\u1ecbnh [P]] Nam \u0110\u1ecbnh Ancient Town, also known as Thanh Nam, was established in the 14th century. It preserves a mix of Vietnamese, French, and Chinese architectural styles. [[H1]] B\u1ea3o T\u00e0ng D\u1ec7t [P]] Nam \u0110\u1ecbnh Textile Museum is located on Ho\u00e0ng Hoa Th\u00e1m street, Nam \u0110\u1ecbnh city, Nam \u0110\u1ecbnh province. It displays textiles and clothing from different periods of Vietnamese history. [[H1]] Danh s\u00e1ch kh\u00e1ch s\u1ea1n ch\u1ea5t l\u01b0\u1ee3ng cao \u1edf Nam \u0110\u1ecbnh [[H1]] SOJO Hotel Nam Dinh [[H1]] Nam Cuong Nam Dinh Hotel [[H1]] Det Hotel [[H1]] Lakeside 2 Hotel [[H1]] [ Some notes to keep in mind when traveling to Nam pr\u00f3prio)) [H1]] Conclusion [[P]] Nam \u0110\u1ecbnh is a popular tourist destination due to its natural beauty, historical sites, and cultural heritage. Traveloka hopes that this article has provided useful information for your trip to Nam \u0110\u1ecbnh. Don't forget to check out Traveloka's deals and promotions for your accommodation in Nam \u0110\u1ecbnh. [[H3]] Related articles: [[H4]] Top 5 best beaches in Nam \u0110\u1ecbnh for relaxation [[H4]] Top 5 most reputable taxi companies in Nam \u0110\u1ecbnh in 2025 [[H4]] Exploring V\u1ecb Xuy\u00ean Lake - A hidden gem in Nam \u0110\u1ecbnh city [[H",
+        "refusal": null,
+        "reasoning": null
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4371,
+    "completion_tokens": 960,
+    "total_tokens": 5331
+  }
+}
